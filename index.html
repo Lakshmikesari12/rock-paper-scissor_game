@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+        <img src="https://eduplayzone.in/image/rps.png" alt="Rock Paper Scissors Logo" class="logo">
     <div class="container">
         <h1>Rock Paper Scissors
             let's play!
@@ -21,8 +22,19 @@
             <p>Computer Choice: <span id="computerChoice"></span> <span id="computerHand"></span></p>
             <p id="outcome"></p>
         </div>
-    </div>
-    <script src="script.js"></script>
+        
+    <!-- Restart button -->
+    <button id="restartBtn" type="button">🔄 Restart Game</button>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('restartBtn').addEventListener('click', () => {
+      window.location.reload();
+    });
+  </script>
 </body>
 </html>
 
+
+ 
