@@ -19,6 +19,13 @@ html, body {
     border-radius: 12px;
     box-shadow: 0px 5px 15px rgba(128, 20, 190, 0.2);
 }
+.logo {
+  display: block;
+  margin: 0 auto 1rem;
+  height: 150px;
+  width: 250px;
+}
+
 
 h1 {
     font-size: 28px;
@@ -74,4 +81,30 @@ body {
 .result {
     font-size: 18px;
     margin-top: 20px;
+}
+/* Restart button styling */
+#restartBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#restartBtn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+#restartBtn:active {
+  background-color: #3e8e41;
+  transform: scale(0.95);
+}
+
+#restartBtn:focus {
+  outline: none;
 }
